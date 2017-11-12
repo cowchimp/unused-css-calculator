@@ -1,0 +1,23 @@
+{
+  "name": "unused-css-calculator",
+  "description": "Calculates the percentage of unused CSS of a webpage after user interaction",
+  "version": "0.0.1",
+  "author": {
+    "name": "cowchimp",
+    "url": "http://blog.cowchimp.com"
+  },
+  "repository": "cowchimp/unused-css-calculator",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "puppeteer": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "license": "MIT"
+}
